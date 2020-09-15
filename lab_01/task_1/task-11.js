@@ -5,6 +5,7 @@ class KidList {
         this.list = [];
     }
 
+    /* Добавление в список */
     addToList(surname, age) {
         for (let i = 0; i < this.list.length; i ++) {
             if (this.list[i].surname == surname) {
@@ -16,6 +17,7 @@ class KidList {
         this.list.push(newKid);
     }
 
+    /* Чтение из списка */
     readFromList(surname) {
         for (let i = 0; i < this.list.length; i ++) {
             if (surname == this.list[i].surname) {
@@ -24,6 +26,7 @@ class KidList {
         }
     }
 
+    /* Обновление фамилии в списке */
     updateSurname(oldSurname, newSurname) {
         for (let i = 0; i < this.list.length; i ++) {
             if (oldSurname == this.list[i].surname) {
@@ -32,6 +35,7 @@ class KidList {
         }
     }
 
+    /* Обновление возраста в списке */
     updateAge(oldSurname, newAge) {
         for (let i = 0; i < this.list.length; i ++) {
             if (oldSurname == this.list[i].surname) {
@@ -39,7 +43,8 @@ class KidList {
             }
         }
     }
-
+    
+    /* Удаление из списка */
     deleteFromList(surname) {
         for (let i = 0; i < this.list.length; i ++) {
             if (this.list[i].surname == surname) {
@@ -48,6 +53,7 @@ class KidList {
         }
     }
 
+    /* Вывод списка */
     outputList() {
         for (let i = 0; i < this.list.length; i ++) {
             console.log("Surname - ", this.list[i].surname, "\tAge - ", this.list[i].age);
@@ -56,6 +62,7 @@ class KidList {
         console.log("\n");
     }
 
+    /* Средний возраст детей */
     takeAverageAge() {
         let ageSum = 0;
 
@@ -66,6 +73,7 @@ class KidList {
         return ageSum / this.list.length;
     }
 
+    /* Поиск самого старшего ребёнка */
     takeOldestKidFromList() {
         let maxAge = 0;
         let maxIndex = -1;
@@ -80,6 +88,7 @@ class KidList {
         return this.list[maxIndex];
     }
 
+    /* Получение списка детей с возрастом в заданном диапазоне */
     takeKidByAgeInRange(start, end) {
         let newList = new KidList();
 
@@ -92,6 +101,7 @@ class KidList {
         return newList;
     }
 
+    /* Получсение списка детей, фамилии которых начинается на заданную букву*/
     takeKidByFirstLetter(letter) {
         let newList = new KidList();
 
@@ -104,6 +114,7 @@ class KidList {
         return newList;
     }
 
+    /* Получение списка детей, длина фамилий которых равна заданной длине */
     takeKidBySurnameLenght(length) {
         let newList = new KidList();
 
@@ -116,6 +127,7 @@ class KidList {
         return newList;
     }
 
+    /* Получение списка детей, фамилии которых начинаются с заглавной буквы */
     takeKidByUpperCase() {
         let newList = new KidList();
 

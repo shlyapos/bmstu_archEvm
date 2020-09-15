@@ -1,12 +1,14 @@
 "use strict";
 
 class Triangle {
+    /* Инициализация полей */
     initSides(a, b, c) {
         this.a = a;
         this.b = b;
         this.c = c;
     }
 
+    /* Проверка существования треугольника */
     checkTriangle() {
         if (this.a > this.b + this.c || 
             this.b > this.a + this.c ||
@@ -17,16 +19,19 @@ class Triangle {
         return true;
     }
 
+    /* Подсчёт периметра треугольника */
     takePerimeter() {
         return this.a + this.b + this.c;
     }
 
+    /* Подсчёт площади треуголника */
     takeArea() {
         let p = this.takePerimeter() / 2;
 
         return Math.sqrt(p * (p - this.a) * (p - this.b) * (p - this.c));
     }
 
+    /* Проверка на прямоугольность треугольника */
     checkSquareness() {
         if (this.a**2 + this.b**2 == this.c**2 ||
             this.a**2 + this.c**2 == this.b**2 ||

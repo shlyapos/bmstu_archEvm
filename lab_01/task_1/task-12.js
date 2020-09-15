@@ -39,6 +39,7 @@ class StudentList {
         this.list = [];
     }
 
+    /* Добавление студента в список */
     addToList(arg1, arg2, arg3) {
         let newStudent = null;
 
@@ -58,6 +59,7 @@ class StudentList {
         this.list.push(newStudent);
     }
 
+    /* Чтение студента из списка */
     readFromList(studNumb) {
         for (let i = 0; i < this.list.length; i ++) {
             if (this.list[i].getStudNumber() === studNumb) {
@@ -66,6 +68,7 @@ class StudentList {
         }
     }
 
+    /* Обновление группы у студента */
     updateGroup(studNumb, newGroup) {
         for (let i = 0; i < this.list.length; i ++) {
             if (this.list[i].getStudNumber() === studNumb) {
@@ -74,6 +77,7 @@ class StudentList {
         }
     }
 
+    /* Обновление номера студенческого */
     updateStudNumber(oldStudNumb, newStudNumb) {
         for (let i = 0; i < this.list.length; i ++) {
             if (this.list[i].getStudNumber() === oldStudNumb) {
@@ -82,6 +86,7 @@ class StudentList {
         }
     }
 
+    /* Обновление списка оценок */
     updateMarks(studNumb, newMarks) {
         for (let i = 0; i < this.list.length; i ++) {
             if (this.list[i].getStudNumber() === studNumb) {
@@ -90,6 +95,7 @@ class StudentList {
         }
     }
 
+    /* Удаление из списка */
     deleteFromList(studNumb) {
         for (let i = 0; i < this.list.length; i ++) {
             if (this.list[i].getStudNumber() === studNumb) {
@@ -98,6 +104,7 @@ class StudentList {
         }
     }
 
+    /* Получение средней оценки у студента */
     takeAverageRating(studNumb) {
         let marks = this.readFromList(studNumb).getMarks();
         let sumMarks = 0;
@@ -109,6 +116,7 @@ class StudentList {
         return sumMarks / marks.length;
     }
 
+    /* Получение списка студентов одной группы */
     takeByGroup(group) {
         let newList = new StudentList();
 
@@ -121,6 +129,7 @@ class StudentList {
         return newList;
     }
 
+    /* Получение студента, у которого максимальное кол-во оценок */
     takeMaxCountMarks(group) {
         let maxCount = 0;
         let student = null;
@@ -136,6 +145,7 @@ class StudentList {
         return student;
     }
 
+    /* Получение студента без оценок */
     takeByZeroMarks() {
         for (let i = 0; i < this.list.length; i ++) {
             if (this.list[i].getMarks().length == 0) {
@@ -144,6 +154,7 @@ class StudentList {
         }
     }
 
+    /* Вывод списка */
     outputList() {
         for (let i = 0; i < this.list.length; i ++) {
             console.log("Group", this.list[i].getGroup(),

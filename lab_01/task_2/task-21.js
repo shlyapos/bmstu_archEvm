@@ -1,12 +1,14 @@
 "use strict";
 
 class Point {
+    /* Инициализации полей */
     initPoint(name, x, y) {
         this.name = name;
         this.x = x;
         this.y = y;
     }
 
+    /* Вывод полей */
     output() {
         console.log(this.name, this.x, this.y);
     }
@@ -18,12 +20,14 @@ class Section {
         this.end = new Point();
     }
 
+    /* Инициализация полей */
     initSection(name, start, end) {
         this.name = name;
         this.start = start;
         this.end = end;
     }
 
+    /* Вывод полей */
     output() {
         console.log(this.name, "\nStart:");
         this.start.output();
@@ -31,6 +35,7 @@ class Section {
         this.end.output();
     }
 
+    /* Расчёт длинны */
     takeLenght() {
         return Math.sqrt((this.start.x - this.end.x)**2 + 
                          (this.start.y - this.end.y)**2);
@@ -59,4 +64,4 @@ sec.output();
 
 
 /* Lenght */
-console.log(sec.takeLenght());
+console.log("\nLenght: ", sec.takeLenght());
