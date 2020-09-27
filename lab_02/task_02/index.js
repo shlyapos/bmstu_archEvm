@@ -17,7 +17,7 @@ function checkVowel(string) {
     return true;
 }
 
-void function main() {
+function main() {
     let error = null;
 
     if (fs.existsSync(fileName)) {

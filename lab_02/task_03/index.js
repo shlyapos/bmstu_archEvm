@@ -3,7 +3,7 @@
 const fs = require("fs");
 const readLine = require("readline-sync");
 
-void function main() {
+function main() {
     let error = null;
 
     let fileFormat = readLine.question("Input format: ");
