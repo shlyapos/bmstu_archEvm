@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Стартовая страница</title>
+</head>
+<body>  
+    <style>
+        body {
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            padding: 35px;
+            background: url(https://i.gifer.com/JZ8l.gif);
+        }
+
+        h1 {
+            color: black;
+        }
+
+        p {
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            color: black;
+        }
+    </style>
+    <h1>Введите числа</h1>
+    <form method="GET" action="/generate">
+        <p>Введите адресс запроса</p>
+        <input name="adress" spellcheck="false" autocomplete="off">
+        <p>Введите имена полей через пробел</p>
+        <input name="names" spellcheck="false" autocomplete="off">
+        <br>
+        <br>
+        <input type="submit" value="Отправить запрос">
+    </form>
+</body>
+</html>

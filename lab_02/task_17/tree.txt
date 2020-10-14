@@ -1,0 +1,108 @@
+{
+  "value": "p",
+  "left": {
+    "value": "l",
+    "left": {
+      "value": "i",
+      "left": {
+        "value": "m",
+        "left": {
+          "value": "a"
+        }
+      }
+    }
+  },
+  "right": {
+    "value": "n",
+    "left": {
+      "value": "y",
+      "left": {
+        "value": "f"
+      },
+      "right": {
+        "value": "i",
+        "left": {
+          "value": "l"
+        },
+        "right": {
+          "value": "x",
+          "left": {
+            "value": "r"
+          },
+          "right": {
+            "value": "d",
+            "left": {
+              "value": "r"
+            },
+            "right": {
+              "value": "u",
+              "left": {
+                "value": "m",
+                "left": {
+                  "value": "x"
+                },
+                "right": {
+                  "value": "x",
+                  "left": {
+                    "value": "j"
+                  },
+                  "right": {
+                    "value": "t"
+                  }
+                }
+              },
+              "right": {
+                "value": "g"
+              }
+            }
+          }
+        }
+      }
+    },
+    "right": {
+      "value": "z",
+      "left": {
+        "value": "a",
+        "left": {
+          "value": "y"
+        },
+        "right": {
+          "value": "j",
+          "left": {
+            "value": "g",
+            "left": {
+              "value": "i"
+            },
+            "right": {
+              "value": "x",
+              "left": {
+                "value": "q"
+              }
+            }
+          },
+          "right": {
+            "value": "z",
+            "left": {
+              "value": "d",
+              "left": {
+                "value": "g",
+                "left": {
+                  "value": "r",
+                  "left": {
+                    "value": "j"
+                  }
+                }
+              },
+              "right": {
+                "value": "w"
+              }
+            }
+          }
+        }
+      },
+      "right": {
+        "value": "a"
+      }
+    }
+  }
+}
