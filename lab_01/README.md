@@ -1,3 +1,7 @@
+# Отчётик
+
+[Ссылочка](https://github.com/shlyapik228/bmstu_archEvm/blob/master/lab_01/Suchkov_lab_01_report.pdf)
+
 # Часть 1
 
 1.1 Создать хранилище в оперативной памяти для хранения информации о детях.
