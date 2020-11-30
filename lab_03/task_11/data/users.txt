@@ -1,0 +1,1 @@
+[["1@mail.ru",{"surname":"Варижков","phone":"89143818337"}],["petr@bmstu.ru",{"surname":"Петров","phone":"89456783344"}],["lena@bmstu.ru",{"surname":"Головач","phone":"89456238892"}],["alex@bmstu.ru",{"surname":"Иванов","phone":"8 904 0818337"}]]

@@ -1,0 +1,21 @@
+body {
+    padding: 30px;
+    background: rgb(60, 98, 109);
+    font-family: Geneva, Arial, Helvetica, sans-serif;
+}
+
+p {
+    color: rgb(168, 204, 214);
+}
+
+h1 {
+    color: rgb(168, 204, 214);
+}
+
+.btn-class {
+    padding: 6px;
+    background: rgb(93, 133, 145);
+    color: rgb(168, 204, 214);
+    cursor: pointer;
+    display: inline-block;
+}

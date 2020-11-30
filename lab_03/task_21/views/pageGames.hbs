@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Игры</title>
+    <link rel="stylesheet" type="text/css" href="/style/style.css" />
+</head>
+<body>
+    
+<h2>
+    {{description}}
+</h2>
+
+{{#each games}}
+    <div class = "row">
+        <ul class = "hr">
+        <li>Название: <font color ="green">{{this.name}}</font></li>
+        <li>Описание: <font color ="blue">{{this.description}}</font></li>
+        <li>Возрастное ограничение: <font color ="red">{{this.age}}+</font></li>
+        </ul>
+    </div>
+{{/each}}
+
+</body>
+</html>

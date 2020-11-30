@@ -1,0 +1,26 @@
+body {
+    padding: 30px;
+    background: rgb(69, 81, 114);
+    font-family: Geneva, Arial, Helvetica, sans-serif;
+}
+
+ul.hr {
+    margin: 0; 
+    padding: 4px; 
+}
+
+ul.hr li {
+    display: inline; 
+    margin-right: 5px; 
+    padding: 3px; 
+}
+
+div.row {
+	background: rgb(156, 163, 184); 
+	margin-bottom: 15px; 
+	padding: 8px;
+}
+
+h2 {
+    color: rgb(94, 154, 204);
+}

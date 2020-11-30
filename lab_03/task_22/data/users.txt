@@ -1,0 +1,28 @@
+[
+    ["sasha20", {
+        "password": "12345",
+        "hobbie": "Food and games",
+        "age": 18
+    }],
+
+    ["kuka", {
+        "password": "kuka123",
+        "hobbie": "Cookies",
+        "age": 34
+    }],
+    ["js_lover",  {
+        "password": "cannot-get",
+        "hobbie": "coding",
+        "age": 0
+    }],
+    ["petya", {
+       "password": "petr12",
+        "hobbie": "music",
+        "age": 25
+    }],
+    ["boris", {
+        "password": "talbot-cool",
+        "hobbie": "Water and talbot effect on water",
+        "age": 78
+    }]
+]
