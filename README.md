@@ -27,3 +27,6 @@ ___
 >
 > [Файлы](https://github.com/shlyapos/bmstu_archEvm/tree/master/lab_04)
 >
+___
+
+![](https://github.com/shlyapos/bmstu_archEvm/blob/master/popov-meme.jpg)
